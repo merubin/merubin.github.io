@@ -9,24 +9,24 @@ body{
   display:flex;
   flex-direction:row;
 }
-h1 {
-  font-size: 2.5em;
-  font-weight: bold;
-  text-align: center;
-}
 h2 {
   font-size: 2em;
   font-weight: bold;
   text-align: center;
 }
+h3 {
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
 }
+
 #projects{
   width:auto;
   flex-direction:column;
-  flex-grow 3;
-/*  justify-content: space-around; */
+  flex-grow: 3;
+  justify-content: space-around;
 	color: #000;
-	text-align: cemter;
+	text-align: center;
 	font-size: 1.2em;
 	line-height: 1.3em;
 	padding-bottom: 30px;
@@ -53,7 +53,9 @@ nav{
 
 .all-project-wrapper{
   flex-direction:row;
-	width: 30%;
+  /*display:flex;*/
+
+	width: 50%;
 	padding: 4%;
 }
 
@@ -82,7 +84,7 @@ nav{
 }
 
 .description {
-  text-align: cemter;
+  text-align:left;
   font-size: 1.2em;
   font-weight: 500;
 }
